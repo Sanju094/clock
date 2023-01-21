@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+}
+#container
+{
+    min-height : 100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: black; 
+    background-image:url("./pikrepo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+     justify-content:center;
+     align-items:center;
+}
+
+#clock
+{
+    
+     border: 5px solid whitesmoke;
+     border-radius: 30px;
+     
+     padding : 30px;
+     opacity: 4;
+
+}
+
+#time
+{
+    color:wheat;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 90px;
+    
+}
+
+#date{
+    color:wheat;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    display:flex;
+     justify-content:center;
+    align-items:center;
+}
